@@ -64,6 +64,7 @@ namespace pop2
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            //dmeriwmew
             s = 0;
             label1.Hide();
             MySqlConnection connection = new MySqlConnection(str);
